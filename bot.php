@@ -2,7 +2,7 @@
 error_reporting(0);
 $zone = json_decode(file_get_contents("http://ip-api.com/json"),1)["timezone"];if($zone){date_default_timezone_set($zone);}
 $host="alphafaucet.xyz";
-$a = ["iewil","freebitz","1.1"];
+$a = ["iewil","alphafaucet","1.1"];
 $reg = "https://bit.ly/3FMKuiI";
 $yt = "https://youtube.com/c/iewil";
 $server = "https://pastebin.com/raw/5mri6gAM";
